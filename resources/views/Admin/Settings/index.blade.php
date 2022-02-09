@@ -62,7 +62,19 @@
                                         <i class="fa fa-exclamation-circle ms-2 fs-7" title="العنوان"></i>
                                     </label>
                                     <!--end::Label-->
-                                    <input type="text" class="form-control form-control-solid"  placeholder="العنوان" name="title" value="{{$setting->title}}" />
+                                    <input type="text" class="form-control form-control-solid"  placeholder="العنوان" name="name_ar" value="{{$setting->name_ar}}" />
+                                </div>
+                                <!--end::Input group-->
+
+                                <!--begin::Input group-->
+                                <div class="d-flex flex-column mb-7 fv-row">
+                                    <!--begin::Label-->
+                                    <label class="d-flex align-items-center fs-6 fw-bold form-label mb-2">
+                                        <span class="required">العنوان (إنجليزي)</span>
+                                        <i class="fa fa-exclamation-circle ms-2 fs-7" title="إنجليزي"></i>
+                                    </label>
+                                    <!--end::Label-->
+                                    <input type="text" class="form-control form-control-solid"  placeholder="إنجليزي" name="name_en" value="{{$setting->name_en}}" />
                                 </div>
                                 <!--end::Input group-->
                                 <!--begin::Input group-->

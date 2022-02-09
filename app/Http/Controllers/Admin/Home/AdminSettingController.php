@@ -71,7 +71,8 @@ class AdminSettingController extends Controller
     public function update(Request $request, $id)
     {
         $data = $request->validate([
-            'title'=>'required',
+            'name_ar'=>'required',
+            'name_en'=>'required',
             'logo'=>'nullable',
         ]);
 
